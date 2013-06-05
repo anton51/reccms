@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<head>        
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title><?php echo CHtml::encode(Yii::app()->name); ?></title>
+    <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/style.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/form.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/reset000.css" type="text/css" mmedia="screen, projection" >
+    <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/grid_120.css" type="text/css" mmedia="screen, projection" >
+    <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/style000.css" type="text/css" mmedia="screen, projection" >
+    <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/slider00.css" type="text/css" mmedia="screen, projection" >
+    <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/css00000.css" type="text/css" mmedia="screen, projection">
+    <!--[if IE 6]><link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/style.ie6.css" type="text/css" media="screen" /><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/style.ie7.css" type="text/css" media="screen" /><![endif]-->
+
+
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+  <!--slider-->
+   <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/bookmark.js"></script>
+   <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/jquery-1.8.2.min.js"></script>
+   <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/jquery.onebyone.css"></script>
+   <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/slider.css"></script>
+   <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/animate.css"></script>
+<style type="text/css" media="screen">
+  #wrapper{              
+    width: 100%;     
+    -webkit-user-select: none;          
+  }
+</style>
+<!--/slider-->
+
+</head>
+<body>
+   <header> 
+       <div> 
+          <div>                 	
+              <h1><a href="#"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/logo0000.png" alt=""></a></h1> 
+              <nav>  
+                <ul class="menu">
+                      <li><a href="index.html">Главная</a></li>
+                      <li><a href="about.html">О нас</a></li>
+                      <li><a href="sozdat_sait_murmansk.html">Создать сайт</a></li>
+                      <li><a href="sait_vizitka_murmansk.html">Сайт-визитка</a></li>
+                      <li><a href="internet_magazin_murmansk.html">Интернет-магазин</a></li>
+                      <li><a href="services.html">Услуги</a></li>
+                      <li><a href="contacts.html">Контакты</a></li>
+                  </ul>
+              </nav>
+              <div class="clear"></div>
+          </div>
+      </div>
+    </header> 
+  <!--==============================content================================-->
+    <section id="content"><div class="ic"></div>
+    	<div class="container_12">
+        	<div class="grid_6 box-1">
+				<img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/page1-im.png" alt="">
+                <div class="extra-wrap">
+                	<h2>Лучшее решение!</h2>
+                    <p>Сайт-визитка - это: три информационных раздела, свой уникальный адрес в интернете, привлекательный дизайн, круглосуточный доступ клиентов к информации о Вашей компании или продукте. И всего за 3890 рублей в срок 3-7 дней.</p>
+                </div>
+            </div>  
+            <div class="grid_6 box-1">
+				<img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/page1-in.png" alt="">
+                <div class="extra-wrap">
+                	<h2>Убедитесь сами!</h2>
+                    <p>Разработка сайта с интересным и уникальным дизайном зачастую играет ведущую роль в процессе увеличения продаж – это источник успеха и процветания компании.</p>
+                </div>
+            </div>  
+            <div class="grid_12 box-2">
+            	<div>
+                 <?php echo $content; ?>
+              </div>
+            </div> 
+            <div class="clear"></div>
+        </div>
+    </section> 
+<!--==============================footer=================================-->
+  <footer><p>Создание сайта в Мурманске +7 (906) 286-07-45 <a href="contacts.html">Контакты</a></p>
+      <p>Разработка сайтов в Мурманске. У нас вы можете заказать недорогой сайт. <a href='http://id51.ru'>id51.ru</a></p>
+  </footer>	
+</body>
+</html>

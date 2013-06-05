@@ -1,0 +1,7 @@
+*.swp
+.idea
+assets/*
+runtime/*
+protected/data/*.db
+protected/tests/report/*
+images, uploads
